@@ -240,6 +240,7 @@ class Chartac_admin extends CI_Controller {
 		$data['title']="Create Users";
 		$data['page']="/chartac_admin/register";
 		// echo '<pre>';print_r($data);exit;
+		//This is for testing the cherry picking the commits
 		$this->load->view('chartac_admin/index_page',$data); 
 	 }
 	//function to get Reporter List based on user role
